@@ -20,17 +20,17 @@ Using the HiBP API : https://haveibeenpwned.com/API/v2 , create a SPA in vanilla
   + compromised data
   + compromised accounts
   + date added to HiBP
-- the detailed view must contain a breadcrumb which, by clicking on the parent (Breaches or Accounts), it must redirect you to the search page where it must have the same state as before clicking.
-- it should be a Single Page Application, so don't change the html file and don't add any ;) use only JS to generate the pages
+- use only JS to generate the pages
+- you can use any CSS framework
+- no other .html other than the one present :P
 - make the UI components as reusable as possible 
-- don't use any external library or package
+- don't use any external library or package besides moment js for date formatting
 - have a look on this list and try to respect it as much as you see it fits your situation ;) : https://github.com/ryanmcdermott/clean-code-javascript ( url to the book: https://www.investigatii.md/uploads/resurse/Clean_Code.pdf )
 
 ## Inspiration:
 https://dev.to/rishavs/making-a-single-page-app-in-ye-good-olde-js-es6-3eng
 
-Bonus points if you make the pagination dynamic, with adjacents like in the first example on this page:
-- https://getuikit.com/v2/docs/pagination-js.html
+Bonus points if: - the detailed view must contain a breadcrumb which, by clicking on the parent (Breaches or Accounts), it must redirect you to the search page where it must have the same state as before clicking.
 
 ## Use postman to test the API:
 - https://www.getpostman.com/
