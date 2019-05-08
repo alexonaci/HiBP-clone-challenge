@@ -30,7 +30,7 @@ Using the HiBP API : https://haveibeenpwned.com/API/v2 , create a SPA in vanilla
 ## Inspiration:
 https://dev.to/rishavs/making-a-single-page-app-in-ye-good-olde-js-es6-3eng
 
-Bonus points if: - the detailed view must contain a breadcrumb which, by clicking on the parent (Breaches or Accounts), it must redirect you to the search page where it must have the same state as before clicking.
+Bonus points: - the detailed view must contain a breadcrumb which, by clicking on the parent (Breaches or Accounts), it must redirect you to the search page where it must have the same state as before clicking.
 
 ## Use postman to test the API:
 - https://www.getpostman.com/
