@@ -7,7 +7,8 @@ Have I been PWNED lets you check if you have an account that has been compromise
 
 ## Requirements
 
-Using the HiBP API : https://haveibeenpwned.com/API/v2 , create a front end having the following functionalities:
+
+Using the HiBP API : https://haveibeenpwned.com/API/v2 , create a SPA in vanilla JS having the following functionalities:
 
 - search for breaches and display them (with pagination and total number)
   + if nothing was searched for, the default page should display all the breaches
@@ -25,6 +26,8 @@ Using the HiBP API : https://haveibeenpwned.com/API/v2 , create a front end havi
 - don't use any external library or package
 - have a look on this list and try to respect it as much as you see it fits your situation ;) : https://github.com/ryanmcdermott/clean-code-javascript ( url to the book: https://www.investigatii.md/uploads/resurse/Clean_Code.pdf )
 
+## Inspiration:
+https://dev.to/rishavs/making-a-single-page-app-in-ye-good-olde-js-es6-3eng
 
 Bonus points if you make the pagination dynamic, with adjacents like in the first example on this page:
 - https://getuikit.com/v2/docs/pagination-js.html
